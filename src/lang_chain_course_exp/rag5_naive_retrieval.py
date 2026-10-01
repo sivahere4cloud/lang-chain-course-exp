@@ -73,3 +73,9 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
+
+    """
+    QUESTION ──► retriever.invoke ──► 3 chunks ──► format_docs ──► RAG_PROMPT ──► llm.invoke ──► answer
+            (step 1: RETRIEVE)                (AUGMENT)                     (step 2: GENERATE)
+    """
