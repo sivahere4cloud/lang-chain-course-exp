@@ -17,6 +17,7 @@ dependencies = [
     "langchain-pinecone>=0.2.13",
     "langchain-tavily>=0.2.18",
     "langchain-text-splitters>=1.1.2",
+    "langgraph>=1.2.12",
     "ollama>=0.6.2",
     "pinecone>=7.3.0",
     "pydantic>=2.13.5",
